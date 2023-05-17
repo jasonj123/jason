@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Diseño Web</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <section class="contenedor nav">
+          <div class="logo">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <div class="enlaces-header">
+            <a href="#nosotros">Nosotros</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#web">Web</a>
+            <a href="#numero">Inscritos</a>
+            <a href="#contacto">Formulario</a>
+          </div>
+          <div class="hamburguer">
+            <i class="fas fa-bars"></i>
+          </div>
+        </section>
+      </nav>
+
+      <!-- slider inicio -->
+      <section id="container-slider">
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"
+          ><i class="fas fa-chevron-circle-left"></i
+        ></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"
+          ><i class="fas fa-chevron-circle-right"></i
+        ></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li
+            style="
+              background-image: url('img/fondo2.jpg');
+              z-index: 0;
+              opacity: 1;
+            "
+          >
+            <div class="content_slider">
+              <div>
+                <h2>Diseña tu propia web</h2>
+                <p>Diseña con los mejores de la manera más fácil y sencilla.</p>
+                <a href="#" class="btnSlider">Ver más</a>
+              </div>
+            </div>
+          </li>
+          <li style="background-image: url('img/nose5.gif')">
+            <div class="content_slider">
+              <div>
+                <h2>Aprende a programar</h2>
+                <p>
+                  Recursos, guías, herramientas y consejos para programar, crear
+                  tu empresa o iniciar un negocio exitoso.
+                </p>
+                <a href="#" class="btnSlider">Ver más</a>
+              </div>
+            </div>
+          </li>
+          <li style="background-image: url('img/fondo4.jpg')">
+            <div class="content_slider">
+              <div>
+                <h2>Estrategias de negocio</h2>
+                <p>
+                  Las estrategias de negocio representan planes o métodos...
+                </p>
+                <a href="#" class="btnSlider">Ver más</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- slider fin  -->
+
+      <div class="contenedor" id="nosotros">
+        <section class="contenido-header">
+          <section class="textos-header">
+            <h1>INNOVA S.A.C.</h1>
+            <br />
+            <p id="parrafo">
+              Desarrolla tu habilidad para crear tu propio sitio web,
+              aprendiendo desde diseño, estructura y maquetación, hasta la
+              implementación de un e-commerce. Conocerás los lenguajes HTML5 y
+              CSS3, y usarás los CMS más importantes (Wordpress, Shopify y Wix).
+            </p>
+            <a href="#">Ver más</a>
+          </section>
+          <img src="img/primeraIlustracion.svg" alt="" />
+        </section>
+      </div>
+    </header>
+
+    <section class="about-us" id="cursos">
+      <div class="contenedor1">
+        <h2 class="titulo">Cursos</h2>
+        <div class="contenedor-articulo">
+          <div class="articulo">
+            <img class="iconos" src="img/html.png" alt="" />
+            <h3>HTML</h3>
+            <p>
+              HTML, son códigos utilizados para "marcar" el texto de una página
+              web, con el fin de dar instrucciones al navegador sobre cómo
+              mostrarlo.
+            </p>
+            <a href="#">Iniciar ---></a>
+          </div>
+          <div class="articulo">
+            <img class="iconos" src="img/css-3.png" alt="" />
+            <h3>CSS</h3>
+            <p>
+              CSS, en español «Hojas de estilo en cascada», es un lenguaje de
+              diseño gráfico para definir y crear la presentación de un
+              documento estructurado escrito en un lenguaje de marcado.
+            </p>
+            <a href="#">Iniciar ---></a>
+          </div>
+          <div class="articulo">
+            <img class="iconos" src="img/formato-js.png" alt="" />
+            <h3>JavaScript</h3>
+            <p>
+              JavaScript es un lenguaje de programación interpretado, dialecto
+              del estándar ECMAScript. Se define como orientado a objetos, ​
+              basado en prototipos, imperativo, débilmente tipado y dinámico.
+            </p>
+            <a href="#">Iniciar ---></a>
+          </div>
+          <div class="articulo">
+            <img class="iconos" src="img/wordpress.png" alt="" />
+            <h3>WordPress</h3>
+            <p>
+              Crea un sitio web gratuito o crea un blog fácilmente en
+              WordPress.com. Docenas de diseños y temas gratuitos,
+              personalizables y compatibles con cualquier dispositivo.
+            </p>
+            <a href="#">Iniciar ---></a>
+          </div>
+          <div class="articulo">
+            <img class="iconos" src="img/laravel.png" alt="" />
+            <h3>Laravel</h3>
+            <p>
+              Laravel es un framework de código abierto para desarrollar
+              aplicaciones y servicios web con PHP 5, PHP 7 y PHP 8.Su filosofía
+              es desarrollar código PHP de forma elegante y simple, evitando el
+              "código espagueti".
+            </p>
+            <a href="#">Iniciar ---></a>
+          </div>
+          <div class="articulo">
+            <img class="iconos" src="img/php.png" alt="" />
+            <h3>PHP</h3>
+            <p>
+              PHP es un lenguaje de programación interpretado​ del lado del
+              servidor y de uso general que se adapta especialmente al
+              desarrollo web. Además, el lenguaje PHP favorece a la conexión
+              entre el servidor y a la interfaz del usuario.
+            </p>
+            <a href="#">Iniciar ---></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="questions contenedor" id="web">
+      <section class="textos-questions">
+        <h1>Ventaja competitiva</h1>
+        <p id="parrafo">
+          Tener un sitio web profesional te permite estar entre los primeros, en
+          comparación con los competidores que, si no tienen un sitio web tan
+          bueno como el tuyo, siempre estar serán un paso atrás en el mundo
+          digital.
+        </p>
+        <a href="#">Ver más</a>
+      </section>
+      <img
+        src="img/segundaIlustracion.svg"
+        alt=""
+        data-aos="zoom-out-up"
+        data-aos-duration="2000"
+      />
+    </section>
+
+    <section class="results" id="numero">
+      <div class="contenedor1 conten-results">
+        <section class="numbers">
+          <div class="number" data-aos="zoom-in-left">
+            <h4>+8863</h4>
+            <p>Personas que han llevado los cursos.</p>
+          </div>
+          <div class="number" data-aos="zoom-in-left">
+            <h4>+5863</h4>
+            <p>Que obtuvieron su certificado en Diseño Web.</p>
+          </div>
+          <div class="number" data-aos="zoom-in-left">
+            <h4>+10863</h4>
+            <p>Personas que recomiendan los cursos y plataforma.</p>
+          </div>
+          <div class="number" data-aos="zoom-in-left">
+            <h4>+1200</h4>
+            <p>Expertos en la materia, que estaran a tu dispocisión.</p>
+          </div>
+        </section>
+        <section class="results-text">
+          <h4>Somos INNOVA</h4>
+          <p>
+            La mejor plataforma web para aprender, diseña y haz crecer tu
+            emprendimiento.
+          </p>
+          <a href="#">Ingrese aquí</a>
+        </section>
+      </div>
+    </section>
+
+    <section class="contenedor1 services">
+      <img src="img/terceraIlustracion.svg" alt="" />
+      <div class="box-skills">
+        <h4><i class="far fa-check-circle"></i> Diseño Web</h4>
+        <h4><i class="far fa-check-circle"></i> Posicionamineto</h4>
+        <h4><i class="far fa-check-circle"></i> E-commerce</h4>
+        <h4><i class="far fa-check-circle"></i> Marketing</h4>
+        <h4><i class="far fa-check-circle"></i> Diseño Digital</h4>
+      </div>
+    </section>
+
+    <div class="container" id="contacto">
+      <h1>Contacto</h1>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Tu email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Tu mensaje"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <section class="questions contenedor" id="web">
+      <section class="textos-questions">
+        <h1>Mayor generación de ingresos</h1>
+        <p id="parrafo">
+          Un sitio web diseñado profesionalmente atraerá más atención y, por lo
+          tanto, a los visitantes. Las personas, por naturaleza, generalmente
+          buscan lo que les atrae y esto no es diferente en el mundo del diseño
+          web.
+        </p>
+        <a href="#">Ver más</a>
+      </section>
+      <img
+        src="img/moneda.avif"
+        alt=""
+        data-aos="zoom-out-up"
+        data-aos-duration="2000"
+      />
+    </section>
+
+    <footer>
+      <div class="partFooter">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <div class="partFooter">
+        <h4>Servicios</h4>
+        <a href="#">Programación</a>
+        <a href="#">Ofimática</a>
+        <a href="#">Diseño</a>
+      </div>
+      <div class="partFooter">
+        <h4>Acerca de</h4>
+        <a href="#">Nosotros</a>
+        <a href="#">Docentes</a>
+        <a href="#">Convenios</a>
+      </div>
+      <div class="partFooter">
+        <h4>Redes sociales</h4>
+        <div class="social-media">
+          <i class="fab fa-facebook-f">F</i>
+          <i class="fab fa-twitter">T</i>
+          <i class="fab fa-instagram">I</i>
+          <i class="fab fa-youtube">Y</i>
+        </div>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <script defer src="js/funcion.js"></script>
+  </body>
+</html>
